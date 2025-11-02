@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miss 3D — Receipt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100;400&family=Syne:wght@700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+  <header class="Header">
+    <div class="Header-inner">
+      <a href="index.html" class="Header-logo">
+        <img src="img/logo/miss3d_v01.webp" alt="Miss 3D logo">
+      </a>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="Wrapper">
+    <h1 class="Receipt-title">receipt</h1>
+    <!-- Caja recibo -->
+    <section class="Receipt">
+
+      <div class="Receipt-meta">
+        <div>
+          <span class="meta-label">order #</span>
+          <span class="meta-value">MSD-001239</span>
+        </div>
+        <div>
+          <span class="meta-label">date</span>
+          <span class="meta-value">16 Oct 2025 · 18:45</span>
+        </div>
+        <div>
+          <span class="meta-label">payment</span>
+          <span class="meta-value">Visa •• 42</span>
+        </div>
+        <div>
+          <span class="meta-label">status</span>
+          <span class="meta-value ok">paid</span>
+        </div>
+      </div>
+
+      <!-- Direcciones -->
+      <div class="Receipt-addresses">
+        <div class="addr">
+          <h3>billing</h3>
+          <p>
+            Olivia Smith<br>
+            45 baker street<br>
+            london, uk w1u 8ew
+          </p>
+        </div>
+        <div class="addr">
+          <h3>shipping</h3>
+          <p>
+            Liam Brown<br>
+            123 Main Street<br>
+            Brighton, UK BN1 1AA
+          </p>
+        </div>
+      </div>
+
+      <!-- Items -->
+      <div class="Receipt-table">
+        <div class="t-head">
+          <span>item</span>
+          <span>qty</span>
+          <span>price</span>
+          <span>subtotal</span>
+        </div>
+
+        <!-- fila -->
+        <div class="t-row">
+          <span>dragon</span>
+          <span>1</span>
+          <span>€180.00</span>
+          <span>€180.00</span>
+        </div>
+        <div class="t-row">
+          <span>dagger</span>
+          <span>1</span>
+          <span>€79.00</span>
+          <span>€79.00</span>
+        </div>
+        <div class="t-row">
+          <span>key</span>
+          <span>1</span>
+          <span>€180.00</span>
+          <span>€180.00</span>
+        </div>
+
+        <!-- Totales -->
+        <div class="t-foot">
+          <div class="t-line">
+            <span>subtotal</span><span>€409.00</span>
+          </div>
+          <div class="t-line">
+            <span>design changes</span><span>€50.00</span>
+          </div>
+          <div class="t-line total">
+            <span>total</span><span>€459.00</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Acciones -->
+      <div class="Receipt-actions">
+        <a href="index.html" class="Btn ghost">continue shopping</a>
+        <a href="#" class="Btn">download pdf</a>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

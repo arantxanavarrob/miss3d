@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miss 3D — Habitacion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100;400&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="Header">
+        <a href="index.html">
+            <img src="img/logo/miss3d_v01.webp" alt="logomiss3d" class="Header-logo">
+        </a>
+    </header>
+
+    <main class="Wrapper">
+
+        <!-- ===== Título sección ===== -->
+        <div class="PageIntro">
+            <a href="projects.html" class="Back">← back</a>
+            <h1 class="Product-kicker">room</h1>
+        </div>
+
+        <!-- ===== PRODUCTO HERO ===== -->
+        <section class="Product">
+            <div class="Product-mediaWrap">
+                <div class="Product-media">
+                    <div class="Gallery" aria-label="Galería de producto">
+                        <div class="Gallery-container">
+                            <img src="img/img_habitacion/HABITACION1.webp" alt="Habitacion 1"
+                                class="Gallery-img isVisible">
+                            <img src="img/img_habitacion/HABITACION2.webp" alt="Habitacion 2" class="Gallery-img">
+                            <img src="img/img_habitacion/HABITACION3.webp" alt="Habitacion 3" class="Gallery-img">
+                        </div>
+                        <button type="button" class="Gallery-arrow Gallery-arrow--prev"
+                            aria-label="Imagen anterior">‹</button>
+                        <button type="button" class="Gallery-arrow Gallery-arrow--next"
+                            aria-label="Imagen siguiente">›</button>
+                    </div>
+                </div>
+
+                <div class="Product-aux">
+                    <span class="aux-left">drag to see 360°</span>
+                    <a class="aux-right" href="#">open viewer</a>
+                </div>
+            </div>
+
+            <div class="Product-info">
+                <h2 class="Product-title">Room</h2>
+                <p class="Product-desc">
+                    An interior scene that captures an intimate atmosphere through warm lighting and personal objects. A
+                    reflection of identity through space. </p>
+                <div class="Product-meta">
+                    <div class="price">€180.00</div>
+
+                    <div class="qty">
+                        <label for="qty">qty</label>
+                        <input id="qty" type="number" min="1" value="1">
+                    </div>
+                </div>
+
+                <div class="Product-actions">
+                    <a href="#" id="addToCart" class="Btn primary">add to cart</a>
+                    <a href="checkout.html" class="Btn ghost">buy now</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== MÁS ÍTEMS ===== -->
+        <section class="More">
+            <h3 class="More-title">more items</h3>
+            <div class="More-grid">
+                <a href="alien.html" class="More-card">
+                    <div class="More-code">001 · 23</div>
+                    <div class="More-media">
+                        <img src="img/img_alien/ALIEN_1.webp" alt="alien">
+                    </div>
+                    <div class="More-caption">“alien”</div>
+                </a>
+
+                <a href="clothes.html" class="More-card">
+                    <div class="More-code">006 · 23</div>
+                    <div class="More-media">
+                        <img src="img/img_conjunto/CONJUNTO_2.webp" alt="clothes">
+                    </div>
+                    <div class="More-caption">“clothes”</div>
+                </a>
+
+                <a href="tropicalbar.html" class="More-card">
+                    <div class="More-code">004 · 25</div>
+                    <div class="More-media tall">
+                        <img src="img/img_bar_tropical/BAR_TROPICAL_CRISTAL.2.webp" alt="tropical bar">
+                    </div>
+                    <div class="More-caption">“tropical bar”</div>
+                </a>
+
+                <a href="dragon.html" class="More-card">
+                    <div class="More-code">003 · 25</div>
+                    <div class="More-media">
+                        <img src="img/img_dragon/DRAGON1.webp" alt="dragon">
+                    </div>
+                    <div class="More-caption">“dragon”</div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
